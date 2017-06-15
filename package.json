@@ -1,0 +1,24 @@
+{
+  "name": "gulp-query-cache-buster",
+  "version": "1.0.0",
+  "description": "Gulp cache buster using query string",
+  "main": "gulp-query-cache-buster.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node ./tests/gulp-query-cache-buster.spec.js"
+  },
+  "keywords": [
+    "gulp",
+    "query",
+    "cache",
+    "buster"
+  ],
+  "author": "Saffaanh Soobratty",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "gulp": "^3.9.1",
+    "jasmine-node": "^1.14.5"
+  }
+}
