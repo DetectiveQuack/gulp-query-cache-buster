@@ -20,5 +20,9 @@
     "eslint-plugin-import": "^2.3.0",
     "gulp": "^3.9.1",
     "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "through2": "^2.0.3",
+    "uuid": "^3.0.1"
   }
 }

@@ -2,11 +2,21 @@
   "extends": "airbnb-base",
   "globals": {
     "it": true,
-    "describe": true
+    "describe": true,
+    "expect": true
   },
   "rules": {
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
     "class-methods-use-this": "off",
     "comma-dangle": "off",
-    "wrap-iife": ["error", "inside"]
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ]
   }
 }
