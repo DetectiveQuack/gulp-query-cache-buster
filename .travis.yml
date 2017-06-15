@@ -1,8 +1,11 @@
 language: node_js
 node_js:
-  - 4.8.3
+  - 6.4
 before_script:
   - npm install
 branches:
   only:
     - master
+cache:
+  directories:
+    - "node_modules"
